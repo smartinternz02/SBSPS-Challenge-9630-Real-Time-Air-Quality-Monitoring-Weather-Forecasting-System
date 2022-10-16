@@ -10,14 +10,14 @@ We build the System and deployed it in Heroku cloud. Here is the link for our [S
 TEAM MEMBERS:
 
 1. Arumugam .N (Team Lead)
-  B.Tech (CSBS)-IInd year
-  Francis Xavier Engineering College
+ - B.Tech (CSBS)-IInd year
+ - Francis Xavier Engineering College
 2. Arumugadass .M
-  B.Tech (CSBS)-IInd year
-  Francis Xavier Engineering College
+ - B.Tech (CSBS)-IInd year
+ - Francis Xavier Engineering College
 3. Jeffry Mike Jones .N
-  B.Tech (CSBS)-IInd year
-  Francis Xavier Engineering College
+ - B.Tech (CSBS)-IInd year
+ - Francis Xavier Engineering College
 4. Shankaran .M
-  B.Tech(IT)-IInd year
-  Francis Xavier Engineering College
+ - B.Tech(IT)-IInd year
+ - Francis Xavier Engineering College
