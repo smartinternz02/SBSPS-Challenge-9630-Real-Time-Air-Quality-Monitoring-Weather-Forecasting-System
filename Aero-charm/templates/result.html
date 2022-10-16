@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href=".\static\css\aqi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css" integrity="sha512-9u5YwIpV3mbAd1ocXZRz1Ezzq8DGicGD+PuUkUiTtTU3Yc95IMc66/Txe/iNxGTxckPu60RQw8zphvVqYiRfTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>AeroCharm Air Quality Index</title>
+</head>
+<body>
+
+    <h1 class="h1">
+        Air Quality<b>Index&nbsp;</b>
+      </h1>
+      <p style="text-align:center">
+The air quality was not the same everywhere. Pollution can build up in isolated pockets, and local sources can add to the overall poor air quality.
+<br> A network of citizen scientists monitoring air quality throughout a region could help reveal</br> 
+how pollution travels through the region and could help identify pollution “hot spots".
+
+
+
+<form action="{% url 'aqi_result' %}" method="POST">
+    {% csrf_token %}
+    <h3>Enter the Pollutants Value:-</h3><br><br>
+    Enter PM2.5 Value :<input type="numer" required name="a"><br><br>
+    Enter PM10 Value :<input type="text" required name="b"><br><br>
+    Enter NO Value :<input type="text"   required name="c"><br><br>
+    Enter NO2 Value :<input type="text"  required name="d"><br><br>
+    Enter NOx Value :<input type="text"  required name="e"><br><br>
+    Enter NH3 Value :<input type="text"  required name="f"><br><br>
+    Enter CO Value :<input type="text"   required name="g"><br><br>
+    Enter SO2 Value :<input type="text"  required name="h"><br><br>
+    Enter Toluene Value :<input type="text" name="i"><br><br>
+
+    <input type="submit" value="Submit & Calculate AQI">
+</form>
+</p>
+</body>
+</html>

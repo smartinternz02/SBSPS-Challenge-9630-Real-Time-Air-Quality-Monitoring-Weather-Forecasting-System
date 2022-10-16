@@ -1,0 +1,12 @@
+body {
+    font-size: 29px;
+    font-style: oblique;
+  
+  }
+  
+  h1 {
+    font-size: 72px;
+  background: -webkit-linear-gradient( rgb(56, 153, 170),rgb(0, 16, 104));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }

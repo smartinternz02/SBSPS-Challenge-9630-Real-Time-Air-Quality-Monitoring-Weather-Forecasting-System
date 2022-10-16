@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AeroCharm</title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+
+  <link rel="stylesheet" href=".\static\css\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src=".\static\img\logo-light.svg" alt="Aerocharm logo" width="150" height="150" class="logo-light">
+          <img src=".\static\img\logo_dark.svg" alt="Aerocharm logo" width="150" height="150" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav" data-aos="fade-up">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+      </nav>
+
+    </div>
+
+  </header>
+  <main>
+    <div class="aero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Aero<b>Charm&nbsp;</b>
+          </h1>
+
+          <p class="h3">
+            Weather Forecasting <abbr title="Accessibility"></abbr>
+            and Air Quality Index
+          </p>
+
+          <div class="btn-group">
+            <a href="weather/" class="btn btn-primary">Weather Forecasting</a>
+            <a href="result" class="btn btn-secondary">Air Quality</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./static/img/profile.png" alt="aerocharm" class="aero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="main">
+      <div class="container">
+        <div class="blog">
+          <h2 class="h2">Aerocharm</h2>
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./static/img/Weather forecast.png"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny" href="weatherforecasting">Weather forecast</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                    Predict the weather using AeroCharm
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  Weather forecasting is the application of science and technology to predict the conditions of the atmosphere for a given location and time
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="wrapper">
+                    <a href="https://en.wikipedia.org/wiki/Weather_forecasting" class="h4">Read More</a>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./static/img/aqi.png" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Air_quality_index</button>
+
+                <h3><a href="" class="h3">Find the Air Quality using AeroCharm</a></h3>
+
+                <p class="blog-text">
+                  The Air Quality Index (AQI) is used for reporting daily air quality. It tells you how clean or polluted your air is, and what associated health effects might be a concern for you.
+                </p>
+
+                <div class="wrapper-flex">
+
+                 
+                  <div class="wrapper">
+                    <a href="https://en.wikipedia.org/wiki/Air_quality_index" class="h4">Read More</a>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+        </div>
+  </main>
+  <script src="./static/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
